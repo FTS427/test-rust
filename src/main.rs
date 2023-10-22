@@ -1,10 +1,13 @@
+use std::io::stdin;
+
 fn main() {
     calc();
 }
 
 fn calc(){
     print!("Hello Rust!");
-    
+    //stdin()();
+
     fn plus(a:i64, b:i64){
         let c:i64=a+b;
         print!("{} + {} = {}",a,b,c);
@@ -29,7 +32,6 @@ fn calc(){
             print!("{} / {} = {}",a,b,c);
         }
     }
-    
 }
 
 fn error() {
